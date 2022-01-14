@@ -4,81 +4,62 @@ body{
 	background-color: #f2f2f7;
 }
 
-.name{
-	text-align: center;
+nav{
+	background-color: #141414;
 	color: #f2f2f7;
-}
-
-.contactMe{
-	background-color: #ffffff;
-	border-radius: 16px;
-	margin: 8px 32px 0px 32px;
+	text-align: center;
 	padding: 8px;
 }
 
-nav{
-	padding: 1px;
-	background-color: #141414;
-}
-
-ul{
-    margin: 0;
-    padding: 0px 0px 8px 0px;
-}
-
-.navItems{
-    list-style-type: none;
-    text-align: center;
-}
-
-#email{
-	color: #007aff;
-	padding-bottom: 8px;
-}
-
-li a{
-    display: block;
-    text-decoration: none;
-    color: #86868b;
-}
-
-li{
-    color: #86868b;
-    list-style-type: none;
-}
-
-.title{
-	color: #1d1d1f;
-	text-align: center;
+section{
+	margin: 16px 8px;
 }
 
 .box{
-    background-color: #ffffff;
-    text-align: center;
-    color: #d0d0d0;
-    padding: 16px;
-    border-radius: 16px;
+	background-color: #ffffff;
+	border-radius: 16px;
+	text-align: center;
+	flex-grow: 1;
+	margin: 8px;
+	padding: 16px;
 }
 
-li #title{
+.title{
+	color: #141414;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.subTitle{
 	color: #007aff;
-	margin: 32px 0px 8px 0px;
+	margin: 8px 16px 0px 16px;
 }
 
-.container{
+.subTitle a{
+	text-decoration: none;
+	color: #007aff;
+}
+
+li a{
+	color: #86868b;
+	text-decoration: none;
+}
+
+li{
+	color: #86868b;
+	list-style-type: none;
+}
+
+.boxes{
 	display: flex;
 	justify-content: center;
-	margin-top: 32px;
-	margin-left: 32px;
 }
 
-#smallBox{
-	margin-right: 32px;
-	width: auto;
-}
-
-#bigBox{
-	margin: 32px;
+sup{
+	color: #86868b;
 }
 
 .copyright{
