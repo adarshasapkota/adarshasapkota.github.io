@@ -1,21 +1,24 @@
-body{
-	margin: 0 !important;
-	padding: 0 !important;
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
 	background-color: #f2f2f7;
 }
 
-nav{
+nav {
 	background-color: #141414;
 	color: #f2f2f7;
 	text-align: center;
 	padding: 8px;
 }
 
-section{
+section {
 	margin: 16px 8px;
 }
 
-.box{
+.box {
 	background-color: #ffffff;
 	border-radius: 16px;
 	text-align: center;
@@ -24,44 +27,45 @@ section{
 	padding: 16px;
 }
 
-.title{
+.title {
 	color: #141414;
 }
 
-ul{
+ul {
 	margin: 0;
 	padding: 0;
 }
 
-.subTitle{
+.subTitle {
 	color: #007aff;
 	margin: 8px 16px 0px 16px;
 }
 
-.subTitle a{
+.subTitle a {
 	text-decoration: none;
 	color: #007aff;
 }
 
-li a{
+li a {
 	color: #86868b;
 	text-decoration: none;
 }
 
-li{
+li {
 	color: #86868b;
 	list-style-type: none;
 }
 
-.boxes{
+.boxes {
 	display: flex;
 	justify-content: center;
 }
 
-sup{
+sup {
 	color: #86868b;
 }
 
-.copyright{
+.copyright {
 	text-align: center;
+	padding-bottom: 8px;
 }
